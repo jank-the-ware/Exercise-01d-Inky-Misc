@@ -1,5 +1,5 @@
 # Exercise-01d-Inky-Misc
 
-# Your Name
+# Jack Wareham
 
-# Your Github username
+# Jack Wareham
