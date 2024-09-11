@@ -301,21 +301,60 @@ You slowly take a step towards them.
 
 == knock ==
 {aethermaul:
-fdsafda
+    ~names+=2
+    You hold up The Aethermaul. She seems hesitant, but given her other options, nods. You bring the face of the hammer close to her head, the light magnetic force tugging towards her skull. You draw it back just slightly, and strike. The kinetic pull of aetherium, which normally enhances the power of your strikes, offers more control, as if lightly thuds into her head, and she crumples unconscious.
+    As she lays on the ground, Stone Face start to convulse. Her pupils take over the whole of her reptilian eyes and every orifice begins to ooze that same black liquid, until it eventually conglomerates and slithers away. The drakefolk coughs and sits up.
+    "Jawrick," Stone Face says, rubbing her head and standing back up.
+    "What?"
+    "My true name is Sullia Jawrick. Let that be of some help to you."
+    She beats her wings once more, and when you look again, is gone. All that's left is black much trailing off in another direction. You suppose a name is nice, but you could've done with something like magical armor too.
 }
 {not aethermaul:
-fdsafa
+~names++
+        You show Stone Face {helm: your old hatchet| {weapon}}. She growls.
+        "Knock me out with that? You do mean to kill me!"
+        Before you can get another word out, she unfurls her wings, and takes off into the sky.
 }
     * {aethermaul} Follow the monster. Whatever this thing is should be dealt with before it does more damage. -> cabin
     * Return to your path. This detour took long enough -> keep_walking
 -> END
 
 == banish ==
-
+{chaosbinder:
+~names+=2
+    You show the unstable arcana chanelled within Chaosbinder. She seems hesitant, but given her other options, nods. You knock back a blunt arrowhead, and take aim, trying to control the spontaneous energy of your bow. With a deep breath you release. The bowstring snaps with a multi-colored flash, your hands feel a burning sensation, and you are pushed back. For a moment it seems to have failed, but the spot where it impacted Stone Face glows white, her mouth opens, and her head shoots back. A black ooze flies from her mouth, taking the shape of a serpentine creature, before it slithers away.
+    "Jawrick," Stone Face says, panting.
+    "What?" you respond as you stand up.
+    "My true name is Sullia Jawrick. Let that be of some help to you."
+    She beats her wings once more, and when you look again, is gone. All that's left is black much trailing off in another direction. You suppose a name is nice, but you could've done with something like magical armor too.
+}
+{not chaosbinder:
+~names++
+     You show Stone Face {helm: your old hatchet| {weapon}}. She growls.
+    "Banish it with that? You do mean to kill me!"
+    Before you can get another word out, she unfurls her wings, and takes off into the sky.
+}
+    * {chaosbinder} Follow the monster. Whatever this thing is should be dealt with before it does more damage. -> cabin
+    * Return to your path. This detour took long enough -> keep_walking
 -> END
 
 == coax ==
-
+{helm:
+~names+=2
+    You tap the Helm of Jareth, and before Stone Face can express her concern or confusion, you allow your voice to fill the space around you, which before only held empty, silent cold. Something, perhaps even someone else takes over, and you utter a string of phrases in a tongue you've could never recognize. Stone Face, still perplexed, suddenly lurches over, grasping her stomach. With a roar, a profuse stream of dark, brackish spews from her mouth. Stone Face collapses, and the ooze congomerates into a singular form, and slithers away.
+    "Jawrick," Stone Face says, panting, rising to her feet from fetal position.
+    "What?"
+    "My true name is Sullia Jawrick. Let that be of some help to you."
+    She beats her wings once more, and when you look again, is gone. All that's left is black much trailing off in another direction. You suppose a name is nice, but you could've done with something like magical armor too.
+}
+{not helm:
+~names++
+    You show Stone Face {helm: your old hatchet| {weapon}}. She growls.
+    "Convince this thing? With that? You do mean to kill me!"
+    Before you can get another word out, she unfurls her wings, and takes off into the sky.
+}
+    * {helm} Follow the monster. Whatever this thing is should be dealt with before it does more damage. -> cabin
+    * Return to your path. This detour took long enough -> keep_walking
 -> END
 
 == seen ==
